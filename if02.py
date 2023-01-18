@@ -6,4 +6,9 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else decreased by 2.
     """
-    return
+    if a < 0:
+        ans = a - 2
+
+    return ans
+
+print(main(-1))
