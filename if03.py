@@ -8,8 +8,8 @@ def main(a):
         a: integer
     """
     if a > 0:
-        ans = a + 1
+        a = a + 1
 
-    return ans
+    return a
 
 print(main(3))
